@@ -1,0 +1,23 @@
+[
+  {
+    "id": "admin",
+  	"username": "admin",
+  	"email": "admin@theweflex.com",
+  	"password": "password"
+  }, {
+    "id": "generalUser",
+  	"username": "generalUser",
+  	"email": "generalUser@theweflex.com",
+  	"password": "password"
+  }, {
+    "id": "venue1Owner",
+  	"username": "venue1Owner",
+  	"email": "venue1Owner@theweflex.com",
+  	"password": "password"
+  }, {
+    "id": "venue1Member",
+  	"username": "venue1Member",
+  	"email": "venue1Member@theweflex.com",
+  	"password": "password"
+  }
+]

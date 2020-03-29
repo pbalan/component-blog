@@ -1,0 +1,49 @@
+{
+  "initial:before": {
+    "loopback#token": {
+      "params": {
+        "model": "accessToken"
+      }
+    }
+  },
+  "initial": {
+    "compression": {},
+    "cors": {
+      "params": {
+        "origin": true,
+        "credentials": true,
+        "maxAge": 86400
+      }
+    },
+    "loopback-context#per-request": {
+      "params": {
+        "enableHttpContext": true
+      }
+    }
+  },
+  "session": {},
+  "auth": {},
+  "parse": {
+    "body-parser#json": {}
+
+  },
+  "routes": {
+    "loopback#rest": {
+      "paths": [
+        "${restApiRoot}"
+      ]
+    }
+  },
+  "files": {},
+  "final": {
+    "loopback#urlNotFound": {}
+  },
+  "final:after": {
+    "strong-error-handler": {
+      "params": {
+         "debug": false,
+         "log": false
+       }
+    }
+  }
+}
